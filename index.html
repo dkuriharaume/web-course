@@ -1,5 +1,139 @@
 <!DOCTYPE html>
 <html>
-    <h1>Hello World!
-    </h1>
+    <head>
+        <title>My Title</title>
+        <meta charset = "UTF-8">
+        <meta name="description" content="This is a sample page to learn html">
+        <meta name="keywords" content = "blah, blah, blah" >
+        <meta name="author" content = "Daisuke Kurihara">
+        <meta name= "viewport" content = "width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h1><i class="fas fa-newspaper"></i>&nbsp;Best News Ever&nbsp;<i class="fas fa-newspaper"></i></h1>
+            <p>Come and get some, homie!</p>
+            <h2>Some subtile here</h2>
+        </header>
+        <main>
+            <section id = "top-stories">
+                <section id = "search">
+                    <div>
+                        <input placeholder="search article">
+                    </div>
+                </section>
+                <article>
+                    <div class = "article-thumbnail-container">
+                        <img src="dog.jpeg" alt= "shiba dog" class = "article-thumbnail">
+                    </div>
+                    <div class = "h3-container">
+                        <h3>Dog kidnapped by another dog</h3>
+                    </div>
+                    <p>California is no stranger to dog kidnapping, however, this one takes the puppy cake...<a href="#">Read More.</a></p>
+                </article>
+                <article>
+                    <div class = "article-thumbnail-container">
+                        <img src="chocolate.jpeg" alt = "chocolates" class = "article-thumbnail">
+                    </div>
+                    <div class = "h3-container">
+                        <h3>Chocolate is actually good for you</h3>
+                    </div>
+                    <p>This is just a placeholder text that isn't really used for anything other than holding places...<a href="#">Read More.</a></p>
+                </article>
+                <article>
+                    <div class = "article-thumbnail-container">
+                        <img src="html5.png" alt = "html5 logo" class = "article-thumbnail">
+                    </div>
+                    <div class = "h3-container">
+                        <h3>Learn HTML5 NOW!</h3>
+                    </div>
+                    <p>California is no stranger to dog kidnapping, however, this one takes the puppy cake...<a href="#">Read More.</a></p>
+                </article>
+                <section id = "paras">
+                    <div class = "paras_text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis leo ligula, a tincidunt ligula dapibus sed. Phasellus lorem lectus, posuere id dignissim sit amet, lacinia id tortor. Quisque eu efficitur leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus et posuere justo. Nullam ac fringilla sapien. In egestas, odio dictum placerat scelerisque, purus lacus lacinia lacus, nec elementum augue ante sit amet arcu. Pellentesque consectetur eu leo et malesuada. Nam convallis eu turpis fermentum vestibulum. Suspendisse maximus commodo tellus, quis commodo eros porta eget. Sed rhoncus libero purus, et laoreet ex porta non. Donec vel gravida est. Ut nisl purus, rhoncus laoreet ligula viverra, sagittis feugiat purus. Aenean blandit libero quis metus ornare finibus.
+                        </p>
+                    </div>
+                    <div class = "paras_text">
+                        <p>
+                            Nulla eu lorem nec lorem gravida facilisis eget non enim. Suspendisse tincidunt vel purus ac facilisis. Duis mattis leo a lectus volutpat lacinia. Sed odio tortor, vestibulum in tempus vel, tempus vel eros. Donec a nunc quis nisi facilisis varius. Donec turpis sem, posuere nec odio varius, sagittis lacinia ante. Integer id ex vel elit ultrices gravida quis a sapien. Duis viverra, nunc vel mollis viverra, arcu elit pulvinar elit, id fringilla lectus tellus quis magna.
+                        </p>
+                    </div>
+                    <div class = "paras_text">
+                        <p>
+                            Nullam est elit, sollicitudin nec mauris a, ullamcorper mollis risus. Proin ut tincidunt mauris, quis faucibus arcu. Donec pharetra mi eget orci consectetur, at tristique purus vulputate. Nunc fermentum sem non diam auctor feugiat. Mauris felis odio, rutrum non magna lobortis, elementum venenatis nisi. Nam ac metus at massa tincidunt dignissim. In dapibus, risus a blandit scelerisque, nunc tortor hendrerit ante, sit amet accumsan neque eros imperdiet nulla. Aliquam purus ex, viverra et diam id, posuere auctor dui. Aenean imperdiet, nunc quis euismod elementum, est erat porta diam, eu pellentesque diam purus a lacus. Vestibulum placerat pulvinar lectus et dignissim. Fusce quis dui ac sapien pellentesque sodales eu ut libero. Sed eros felis, mattis et mauris ut, interdum posuere metus. Fusce ac justo eu lacus hendrerit sagittis. Vivamus vulputate dolor nec ullamcorper accumsan. Morbi sit amet accumsan massa.
+                        </p>
+                    </div>
+                    <div class = "paras_text">
+                        <p>
+                            Nam at sodales sapien. Nulla suscipit velit vel placerat euismod. Etiam ultrices turpis arcu, nec vehicula tortor convallis vitae. Nulla facilisi. Nam justo leo, vestibulum id tristique scelerisque, consectetur at dolor. Cras at imperdiet lorem. Nam efficitur sapien imperdiet, luctus sapien et, fringilla nibh. Ut aliquet urna est, vel auctor arcu ultrices sit amet. Duis sagittis mattis est. Etiam dignissim nunc sit amet dolor cursus congue sed eget felis. Aliquam interdum quis leo nec blandit. Aenean vel ex justo.
+        
+                        </p>
+                    </div>
+                    <div class = "paras_text">
+                        <p>
+                            Praesent convallis, purus et rhoncus lobortis, est metus consequat risus, sed gravida felis turpis et turpis. Mauris fringilla rutrum erat quis elementum. In venenatis tellus sit amet nibh commodo ullamcorper. Cras luctus tincidunt consequat. Nunc tincidunt neque nec ipsum rhoncus, sit amet lacinia nunc dapibus. Vestibulum condimentum, tortor vitae varius tincidunt, felis nulla vehicula ante, a cursus leo tellus at felis. Donec id rutrum magna, nec dapibus nisl. Cras accumsan tortor in dolor viverra, pharetra aliquet massa condimentum. Nunc sollicitudin sem vel nunc pretium sagittis. Cras condimentum, neque sed sodales blandit, velit lorem commodo ipsum, vel rutrum urna nulla eget urna. Fusce porttitor nunc eget nisi elementum rutrum. Praesent eu suscipit arcu. Curabitur pretium tempus augue ac porttitor.
+                        </p>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <button id = "go_button">GO</button>
+                <p id = "text_to_change">This text changes to something else</p>
+                <input class = "my_input" placeholder="type in something">
+                <textarea class = "my_textarea" placeholder="type in your message"></textarea>
+            </section>
+            <section id = "video">
+                <video width = "540" height= "320" controls>
+                    <source src = "capture.mov" type = "video/mp4">
+                    <p>Your browser does not support the vid!</p>
+                </video>
+            </section>
+            <section id = "audio">
+                <audio width = "600" controls>
+                    <source src = "recording.m4a" type = "audio/mp3">
+                </audio>
+            </section>
+            <section id = "contact-form">
+                <h2>Place Order</h2>
+                <form method="GET" action = "place-order.php">
+                    <h4>Delivery</h4>
+                    <input name = "delivery" type = "radio" value = "delivery">Delivery
+                    <input name = "delivery" type = "radio" value = "pickup">Pickup
+                    <h4>Address</h4>
+                    <input name="address1" placeholder="Address line 1" class = "lg-input"/><br>
+                    <input name= "address2" placeholder="Address line 2" class = "lg-input" /><br>
+                    <input name="city" placeholder="City" class = "sm-input" />
+                    <input name = "state" placeholder = "State" class = "sm-input" /><br>
+                    <input name = "zip" placeholder = "Zip code" class = "sm-iput" /><br>
+                    <h4>Size</h4>
+                    <select name= "size">
+                        <option value = "small">Small</option>
+                        <option value = "meidum">Medium</option>
+                        <option value = "large">Large</option>
+                        <option value = "xl">XL</option>
+                    </select>
+                    <h4>Ingredients</h4>
+                    <input name =  "ingredients" value = "pepperoni" type = "checkbox" />Pepperoni<br>
+                    <input name =  "ingredients" value = "salami" type = "checkbox">Salami<br>
+                    <input name =  "ingredients" value = "bacon" type = "checkbox">Bacon<br>
+                    <input name =  "ingredients" value = "sausage" type = "checkbox">Sausage<br>
+                    <input name =  "ingredients" value = "onion" type = "checkbox">Onion<br>
+                    <input name =  "ingredients" value = "pepper" type = "checkbox">Peppers<br>
+                    <button type = "submit">Place Order</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Copyright 2021 TheBestPizzaEver</p>
+            <a href="#">
+                <p>Terms of Service</p>
+            </a>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>
